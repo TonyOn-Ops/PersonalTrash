@@ -1,0 +1,28 @@
+
+Hello and Welcome
+
+Before starting, I want to warn you: I'm just a hobbyist, not a professional developer.
+Please forgive me in advance for any mistakes.
+
+As a user with an EliteBook, I've ended up in a long fight with HP's bloated analytics bullshit.
+After many attempts, I found a solution by myself.
+This "tool" was created in order to boot together with Windows and avoid letting HP reinstall its parasite.
+I created this .bat file in early 2026 and updated it in order to block the new WXP service.
+
+Let's start with the guide:
+
+1) Download StartHPBlocker.vbs and killinsight.bat
+2) Edit the .vbs file --> On the 2nd line, "C:\Users\User\AppData..." change "User" with your personal username
+3) Press Windows + R
+4) Type: shell:startup
+5) Copy and paste the files you downloaded in step 1
+6) Open Control Panel and select "Uninstall a Program" under Programs
+7) Uninstall every single HP Insight software
+8) Restart Windows
+
+After boot, within about a minute, Windows should start the .bat file.
+I've uploaded a picture with the result at the end of the guide.
+
+I'm sure this setup could be improved, but as I said, I'm not a dev — after many fights, I managed to build this working tool and I'm happy with the result.
+
+The .bat file uses about 1.5MB of RAM in Task Manager.
