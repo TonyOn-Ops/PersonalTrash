@@ -1,2 +1,4 @@
-# PersonalTrash
-HP (WXP) Insights Analytics remover killer  
+# HP Insights Analytics Remover
+
+Read the guide and enjoy :)
+  
